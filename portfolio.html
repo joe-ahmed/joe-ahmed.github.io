@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yousef Alsagheer – Junior Software Developer</title>
+<meta name="description" content="Yousef Ahmed Alsagheer, computer science graduate from Sohag University. Built Farahi, a wedding-services booking platform with ASP.NET Core, SQL Server and React.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FBFAF7;
+    --ink: #1C2430;
+    --ink-soft: #4F5B6B;
+    --blue: #1F4E79;
+    --blue-tint: #E7EEF5;
+    --line: #D8DEE6;
+    --gold: #B8860B;
+    color-scheme: light;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #141A22;
+      --ink: #EDEFF2;
+      --ink-soft: #AAB4C0;
+      --blue: #8FB8E3;
+      --blue-tint: #1E2A38;
+      --line: #2C3744;
+      --gold: #D9A93A;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #141A22; --ink: #EDEFF2; --ink-soft: #AAB4C0; --blue: #8FB8E3;
+    --blue-tint: #1E2A38; --line: #2C3744; --gold: #D9A93A; color-scheme: dark;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: inherit; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 4.5rem 1.5rem 5rem; }
+  h1, h2, .lede { font-family: "Newsreader", Georgia, "Times New Roman", serif; font-weight: 400; }
+  h1 { font-size: clamp(2.6rem, 7vw, 3.6rem); line-height: 1.05; margin: 0 0 1.25rem; letter-spacing: -0.01em; }
+  .lede { font-size: clamp(1.35rem, 3.2vw, 1.6rem); line-height: 1.4; margin: 0 0 2rem; color: var(--ink); }
+  .lede em { font-style: italic; color: var(--blue); }
+  nav.links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin: 0 0 4rem; padding: 0; list-style: none; }
+  nav.links a { font-weight: 600; }
+  a { color: var(--blue); text-decoration: none; border-bottom: 1.5px solid var(--line); transition: border-color .15s; }
+  a:hover, a:focus-visible { border-bottom-color: var(--gold); }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+  section { padding: 2.5rem 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 1.9rem; margin: 0 0 1rem; line-height: 1.2; }
+  h3 { font-size: 1.15rem; font-weight: 600; margin: 1.75rem 0 0.4rem; }
+  p { margin: 0 0 1rem; }
+  .muted { color: var(--ink-soft); }
+  .project-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1rem; margin-bottom: 0.25rem; }
+  .project-head h3 { margin: 0; font-size: 1.4rem; }
+  .stack { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: 1rem 0 1.25rem; }
+  .stack li { background: var(--blue-tint); color: var(--blue); padding: 0.2rem 0.65rem; border-radius: 999px; font-size: 0.95rem; font-weight: 600; }
+  ul.plain { padding-left: 1.2rem; margin: 0 0 1rem; }
+  ul.plain li { margin-bottom: 0.5rem; }
+  dl { display: grid; grid-template-columns: 11rem 1fr; gap: 0.6rem 1.25rem; margin: 0; }
+  dt { font-weight: 600; color: var(--blue); }
+  dd { margin: 0; }
+  @media (max-width: 36rem) { dl { grid-template-columns: 1fr; gap: 0.1rem; } dd { margin-bottom: 0.9rem; } }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 1rem; }
+  @media (prefers-reduced-motion: reduce) { a { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Yousef Ahmed Alsagheer</h1>
+    <p class="lede">I’m a computer science graduate in Sohag, Egypt, who builds web applications with <em>C# and .NET</em> and is now learning to do the same in Python. I’m looking for my first junior developer role.</p>
+    <nav class="links" aria-label="Links">
+      <a href="https://github.com/joe-ahmed">GitHub</a>
+      <a href="https://www.linkedin.com/in/yousef-alsagheer">LinkedIn</a>
+      <a href="Yousef_Ahmed_Alsagheer_CV.pdf">CV (PDF)</a>
+      <a href="mailto:yousefaalsagheer@gmail.com">yousefaalsagheer@gmail.com</a>
+    </nav>
+  </header>
+
+  <section id="work">
+    <h2>What I’ve built</h2>
+    <div class="project-head">
+      <h3>Farahi — Wedding Services Booking Platform</h3>
+      <span class="muted">Graduation project, Sohag University, 2026</span>
+    </div>
+    <p>A web marketplace for Sohag where couples browse, compare and book wedding halls and services, providers manage their listings and bookings from a dashboard, and admins approve new services before they go live.</p>
+    <ul class="stack" aria-label="Technologies">
+      <li>C#</li><li>ASP.NET Core 8</li><li>SQL Server</li><li>React</li><li>xUnit</li>
+    </ul>
+    <p>The backend is a REST API with JWT authentication, role-based access for customers, providers and admins, and 40+ endpoints covering services, bookings, payments, reviews and notifications. The database is 17 tables in SQL Server with versioned migration scripts, and the API is covered by 45 integration tests.</p>
+    <h3>My part</h3>
+    <ul class="plain">
+      <li>Wrote the full analysis and design documentation: requirements, context diagram, data-flow diagram, use-case scenarios, entity-relationship diagram and the UI/UX chapter.</li>
+      <li>Was the team’s point of contact with our three supervisors, turning their feedback into the design and delivering what they asked for at the final review.</li>
+      <li>Defined the requirements and screens, reviewed the code, ran the API, database and frontend locally, and tested every feature until it worked as intended.</li>
+    </ul>
+    <p><a href="https://github.com/joe-ahmed">See the code on GitHub</a></p>
+  </section>
+
+  <section id="now">
+    <h2>What I’m learning now</h2>
+    <p>Python web development with FastAPI and SQLite, with a plain HTML, CSS and JavaScript frontend. Projects from this will show up on my GitHub as they’re finished.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl>
+      <dt>Languages</dt><dd>C#, SQL, Python, Java, C++</dd>
+      <dt>Backend</dt><dd>.NET 8, ASP.NET Core Web API, REST, JWT authentication</dd>
+      <dt>Frontend</dt><dd>React, HTML, CSS</dd>
+      <dt>Databases</dt><dd>SQL Server, T-SQL, schema design (ERD, normalisation)</dd>
+      <dt>Tools</dt><dd>Git and GitHub, Visual Studio, SQL Server Management Studio, PyCharm, Swagger</dd>
+      <dt>Spoken</dt><dd>Arabic (native), English (fluent)</dd>
+    </dl>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>B.Sc. in Computer Science and Artificial Intelligence from Sohag University, graduated July 2026 with 85%. Before that, an American high-school diploma and a British-curriculum school through grade 8, which is where the English comes from.</p>
+    <p>I work well with AI coding tools and I’m good at understanding what someone wants and turning it into something that works. What I want next is a team of experienced engineers to learn from.</p>
+  </section>
+
+  <footer>Sohag, Egypt · <a href="mailto:yousefaalsagheer@gmail.com">Email me</a></footer>
+</main>
+</body>
+</html>
